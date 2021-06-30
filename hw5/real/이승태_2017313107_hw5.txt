@@ -1,0 +1,23 @@
+Metric: Cosine similarity
+Input: bag-of-words
+Accuracy: 71.00%
+
+Metric: Cosine similarity
+Input: TF
+Accuracy: 70.00%
+
+Metric: Cosine similarity
+Input: TF-IDF
+Accuracy: 68.00%
+
+Metric: Euclidean distance
+Input: bag-of-words
+Accuracy: 40.00%
+
+Metric: Euclidean distance
+Input: TF
+Accuracy: 49.00%
+
+Metric: Euclidean distance
+Input: TF-IDF
+Accuracy: 72.00%

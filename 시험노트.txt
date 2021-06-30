@@ -1,0 +1,309 @@
+1. what is intelligence
+memorization, computing, creativity, learning
+
+2. AI
+understanding ability
+neural network
+knowledge aquisition
+pattern recognition system
+inference ability
+reasoning system like expert system
+
+3. Basic ability AI
+understanding, reasoning, learning
+
+4. Intelligence mean
+automatically perform task
+autonomy in computer system
+flexibility
+easier to use
+improve their performance
+
+5. AI method
+heuristic search -> tictactoe -> minimax porcedure
+exploits knowledge -> qa system -> a structured form
+
+6. turing test
+
+7. knowledge representation
+logical representation scheme
+- predicate logic
+network representation scheme
+- semantic network
+structured representation scheme
+- frame
+procedural(절차상의) representation scheme
+- production rule
+
+8. search
+blind search -> BFS DFS
+heuristic search -> hill climbing, best-first search
+
+9. Application area
+game playing
+- using well-defined rules
+- represented on computer
+- large search spaces
+- hostility: 나는 이길확률 최대, 적 최소
+- unpredictable opponent: 예측할 수 없는 적
+automatic theorem proving
+- 수학적 정리들을 컴퓨터 프로그램을 통해 형식적으로 증명하는 것, 또는 그에 대한 연구
+expert system
+- domain expert: 필요한 정보를 제공한다.
+- knowledge engineer: 이 지식을 program에게 잘 implement한다.
+natural language process
+- capable of understanding human language
+- background knowledge
+- contextual knowledge
+- POS tagging(형태소 확인하기)
+- Parsing(문장의 구문 구조분석)
+- Semantic interpretation(semantic consistency)
+- Structures from KB are added to the internal representation
+robotics
+- order the atomic actions which robot can perform
+machine learning
+- Including model from examples
+- genaralize
+- memorize
+
+10.
+Tensor
+column(세로), row(가로)
+transpose of matrix -> symmetric matrix
+composite function
+
+11. Machine Learning
+Herbert Simon: improve their performance from experience
+Tom Mitchell PTE
+- improve their performance P
+- at some task T
+- with experience E
+
+12. Tranditional Programming vs Machine Learning
+data program -> output
+data output -> program
+
+13. When use ML?
+Human expertise does not exist(navigating on Mars)
+Human cannot explain their expertice(speech recognition)
+Model must be customized(personalized medicine)
+Model are based on huge amounts of data(genomics)
+
+14. Examples of task
+Recognizing pattern (Medical images)
+generalizing pattern (generating images)
+recognizing anomalies (unusual credit card transactions)
+prediction (Future stock prices)
+
+15. example TPE
+Improve on task T, with respect to performance metric P, based on experience E
+T: Recognizing hand-written words
+P: Percentage of words correctly classified
+E: Database of human-labeled images of handwritten words
+
+16. Learning Types
+Supervised learning
+- Given: Training Data, desired output(labels)
+- regression
+- classification
+Unsupervised learning
+- Given: Training Data (No desired output)
+- clustering
+- Independent component analysis
+Semi-supervised learning
+- Given: Training Data, a few desired output
+Reinforcement learning
+- Rewards from sequence of actions
+- Game playing
+- robot in maze
+
+17. Target function -> mapping from example to label
+
+18. Transfer Learning
+
+19. Components in ML
+Representation
+- Numerical function
+--- Linear Resgression
+--- Neural Network
+--- SVM
+- Symbolic function
+--- Decision Tree
+--- Rules in first-order predicate logic
+--- Rules in propositional logic
+- Instance-based function
+--- KNN
+--- Case-based
+- Probabilistic Graphical Model
+--- HMMs
+--- PCFGs
+--- Marcov networks
+--- naive bayes
+
+Optimization
+- Gradient descent
+--- backpropagation
+--- perceptron
+- Dynammic programming
+--- HMM Learning
+--- PCFG Learning
+- Divide and conquer
+--- Decision tree induction
+--- Rule learning
+- Evolutionary computation
+--- GAs
+--- GP
+--- Neuro-evolution
+
+Evaluation
+- Posterior probability
+- cost/utility
+- Squared error
+- Entropy
+- Margin
+- likelihood
+- accuracy
+- Recall
+- Precision
+- F1-score
+- K-L divergence
+
+20. ML in practice
+understand domain
+preprocessing
+Learn model
+interpret result
+consolidate, descover knowledge
+
+21. Pattern classification
+sensing -> segmentation -> feature extraction -> classification -> post-processing
+collect data -> choose feature -> choose model -> train classifier -> evaluate classifier
+
+22. Feature Extraction
+Korean
+- POS tagging
+- Noun extraction
+- Removing stop words
+English
+- Removing stop words
+- stemming
+
+23. TFIDF
+TF: Term Frequency
+IDF: Inverted Document Frequency log2(N/df)
+Inner product
+euclidean distance
+cosine coefficient
+
+24. decision boundary
+
+25. Ockham's Razor
+심플하게 표현하는게 베스트
+
+26. choosing the best attribute
+- Random
+- Least-values: smallest number of possible values
+- Most-values: largest number of possible values
+- Max-Gain: Information gain
+
+27. Entropy
+sigma(-p log2(p))
+
+28. information gain
+entropy(parent) - [average entropy(children)]
+
+29. Feature values
+Binary features
+real value features
+categorical features
+
+30. memory-based learning
+
+31. voronoi tessellation
+
+32. Four aspects
+A distance metric
+- Euclidean
+How many nearby neighbors to look at?
+- five
+A weighting function(optional) -> kernel function
+- inverse function -> 1/d
+How to fit with the local points?
+- same output as the nearest neighbor
+
+33.
+just counting
+weighted sum
+
+34. Naive bayes -> density estimation
+
+35.
+prior, posterior, likelihood
+
+36. Laplace Smoothing
+
+37. Shanon Information Content(SIC)
+-log2p
+Entropy -> average of Shannon Information
+
+38.
+Macro averaging
+Micro averaging
+confusion matrix
+
+39. Text Categorization
+Single-label case
+Multi-label case
+
+40.
+CPC(category-pivoted categorization)
+DPC(document-pivoted categorization)
+
+41. Information retrieval
+indexing
+- lexical semantics(unigram)
+- compositional semantics(bigram)
+- a bag of words
+- stop words
+--- topic-neutral words
+--- function words
+- stemming
+techniques
+- 80's hand-crafting expert system
+- 90's automatically builds a classifier
+- Categorization status value(CSV)
+- naive bayes classifier(probabilistic classifier)
+--- independence assumption
+- neural network
+--- backpropagation
+--- non-linear provides absolutely no advantages
+- build a binary tree(decision tree classifier)
+- KNN(Example based Classifier)
+--- RSV: a measure or semantic relatedness between
+--- too late running time, lazy learners
+- SVM
+--- surface sigma
+--- no feature selection
+--- no parameter tuning
+--- determined by only a small set of trainig example
+evaluation
+- Precision
+- Recall
+- Accuracy
+- Error
+- Trivial rejector -> 95% no, 5% yes -> 다 no로 예측
+- tune thresholds
+- various combined measures
+--- interpolated 11 point average precision
+- F1 = 2 Pr Re / (Pr + Re)
+- Breakeven point
+
+42. bio-inspired learning
+neuron -> Artificial node
+cell body = f(x)
+dendrites -> x
+axon -> y
+synapse -> weight
+
+43. batch mode, pattern mode
+

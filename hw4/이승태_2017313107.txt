@@ -1,0 +1,43 @@
+Accuracy: 74.5%
+Precision: 74.5%
+Recall: 74.5%
+F1: 74.5%
+
+379	finance	-2031.69
+795	finance	-3235.45
+387	finance	-4342.27
+401	finance	-1996.46
+774	finance	-1338.28
+150	finance	-4162.16
+205	finance	-2542.06
+34	finance	-3848.72
+62	finance	-1548.69
+422	finance	-3049.07
+661	finance	-5996.61
+356	finance	-3176.7
+100	finance	-2344.43
+483	finance	-3000.9
+403	finance	-2301.22
+805	finance	-3274.89
+978	finance	-2141.51
+493	finance	-3500.18
+843	finance	-3703.37
+566	finance	-3621.01
+976	finance	-3298.0
+679	finance	-3982.35
+871	finance	-1712.77
+207	finance	-1726.17
+813	finance	-5180.5
+784	finance	-2018.64
+834	finance	-2562.69
+408	finance	-3620.62
+613	finance	-1988.96
+438	finance	-3113.34
+75	finance	-1240.7
+900	finance	-1090.29
+603	finance	-2362.81
+363	finance	-1864.54
+434	finance	-3925.4
+564	finance	-3875.32
+907	finance	-3841.32
+901	finance	-1482.83

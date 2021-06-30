@@ -1,0 +1,27 @@
+1. None type에 append 불가능
+
+
+
+
+
+
+2. self로 class 내부의 변수 선언
+
+
+
+
+
+
+3. dictionary는 d['key_a']처럼 불러야한다.
+
+
+
+
+
+4. self는 class내부 아무데서 선언 가능 쓰기
+
+
+
+
+
+5. 
